@@ -1,5 +1,5 @@
 # DEMO
-ローカルホストで node.js コンテナ1個を起動してにhttpアクセスするまで。
+ローカルホストで node.js コンテナ1個を起動してhttpアクセスするまで。
 
 # How to run a container
  
