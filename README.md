@@ -10,8 +10,8 @@ docker build -t iskroom/simpleweb .
 docker run -p 8080:8080 iskroom/simpleweb
 ```
 
-この状態でブラウザから以下URLにアクセスすると「How are you doing」が表示される。（Tagは適当です）  
-（Windowsの場合は Docker Desktop の起動が前提）
+・この状態でブラウザから以下URLにアクセスすると「How are you doing」が表示される（Tagは何でもよい）  
+・Windowsの場合は Docker Desktop の起動が前提
 
 http://localhost:8080/
 
