@@ -5,11 +5,12 @@
  
 ```bash
 git clone https://github.com/ISKroom/docker_first_project.git
-docker built -t <docker id>/<project name> .
-docker run -p 8080:8080 <docker id>/<project name>
+cd docker_first_project
+docker build -t iskroom/simpleweb .
+docker run -p 8080:8080 iskroom/simpleweb
 ```
 
-この状態でブラウザから以下URLにアクセスすると「How are you doing」が表示される。
+この状態でブラウザから以下URLにアクセスすると「How are you doing」が表示される。（ImageのTagは適当です）
 
 http://localhost:8080/
 
